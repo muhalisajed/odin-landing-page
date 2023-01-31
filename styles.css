@@ -4,6 +4,76 @@ body {
 }
 
 .wrapper {
-        max-width: 1200px;
         margin: 0 auto;
+        max-width: 1200px;
+        
+}
+
+.background {
+        background-color: #1f2937;
+        padding-bottom: 2em;
+}
+
+.hero-row {
+      position: relative;
+}
+
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5em;
+}
+
+.logo {
+        font-size: 1.5rem;
+        color: #F9FAF8;
+}
+
+nav ul {
+        display: flex;
+        gap: 1.5rem;
+        text-decoration: none;
+        list-style-type: none;
+}
+
+nav ul li {
+        font-size: 1.125rem;
+}
+
+nav ul li a {
+        text-decoration: none;
+        color: #e5e7eb;
+}
+
+.hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 4em;
+}
+
+h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+        color: #F9FAF8;
+}
+
+button {
+        background-color: #3882f6;
+        color: #F9FAF8;
+        border-radius: .5em;
+        padding: .5em 1em;
+        border: none;
+}
+
+.main-text {
+        font-size: 1.125rem;
+        color: #e5e7eb;
+        margin: 0;
+}
+
+.img-place {
+        background: #e5e7eb;
+        padding: 5em 7em;
 }
