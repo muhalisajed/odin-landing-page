@@ -3,7 +3,7 @@ body {
        font-family: 'Roboto';
 }
 
-.wrapper {
+h3, nav, h1, .hero, .img-row, figure .quote {
         margin: 0 auto;
         max-width: 1200px;
         
@@ -181,3 +181,13 @@ figcaption {
 }
 
 /*Footer*/
+.footer-background {
+        background-color: #1f2937;
+}
+
+footer {
+        display: flex;
+        justify-content: center;
+        color: #F9FAF8;
+        padding: 1em;
+}
