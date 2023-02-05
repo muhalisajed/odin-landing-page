@@ -150,19 +150,28 @@ figcaption {
 /*CTA Section*/
 .call-to-action {
         display: flex;
-        align-content: center;
-        align-items: center;
+        justify-content: center;
+        margin: 5em;
 }
 
 .cta-container {
         background-color: #3882f6;
         color: #F9FAF8;
         border-radius: .5em;
-        width: 900px;
-        padding: 1em 5em;
+        width: 700px;
+        padding: 3em 6em;
         display: flex;
         justify-content: space-between;
         align-items: center;
+}
+
+.cta-col-1 h4 {
+        margin: 0;
+}
+
+.cta-col-1 p {
+        margin: 0;
+        color: #e5e7eb;
 }
 
 .cta-col-2 button {
