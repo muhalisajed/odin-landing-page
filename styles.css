@@ -3,19 +3,15 @@ body {
        font-family: 'Roboto';
 }
 
-h3, nav, h1, .hero, .img-row, figure .quote {
+h3, nav, h1 {
         margin: 0 auto;
         max-width: 1200px;
-        
-}
-
-.background {
-        background-color: #1f2937;
-        padding-bottom: 2em;
 }
 
 .hero-row {
       position: relative;
+      background-color: #1f2937;
+      padding: .5em 0 8em 0;
 }
 
 header {
@@ -50,7 +46,7 @@ nav ul li a {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 4em;
+        margin: 0 13em;
 }
 
 h1 {
@@ -59,23 +55,27 @@ h1 {
         color: #F9FAF8;
 }
 
-button {
+.hero-button {
         background-color: #3882f6;
         color: #F9FAF8;
         border-radius: .5em;
-        padding: .5em 1em;
+        padding: .5em 2em;
         border: none;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-top: .1em;
 }
 
 .main-text {
         font-size: 1.125rem;
         color: #e5e7eb;
-        margin: 0;
+        margin-right: 2em;
 }
 
 .img-place {
         background: #e5e7eb;
-        padding: 5em 7em;
+        padding: 4em 12em;
+        margin-left: 1em;
 }
 
 .img-row {
