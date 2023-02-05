@@ -105,7 +105,7 @@ figure {
         margin: 0;
 }
 
-span {
+img.container span {
         display: block;
         border-style: solid;
         border-width: 0.25em;
@@ -115,3 +115,60 @@ span {
         padding: 4.688rem;
         margin: 0;
 }
+
+/*Quote Section*/
+.quote {
+        background-color: #e5e7eb;
+        padding: 3.5em;
+        font-size: 2.25rem;
+        display: flex;
+        flex-direction: column;
+}
+
+blockquote {
+        margin: 0;
+}
+
+blockquote p {
+        align-self: center;
+        font-weight: lighter;
+        font-style: italic;
+        margin: 0 .7em;
+}
+
+figcaption {
+        align-self: flex-end;
+}
+
+.author {
+        font-weight: bold;
+        font-style: normal;
+        font-size: 1.12rem;
+        margin: 1em;
+}
+
+/*CTA Section*/
+.call-to-action {
+        display: flex;
+        align-content: center;
+        align-items: center;
+}
+
+.cta-container {
+        background-color: #3882f6;
+        color: #F9FAF8;
+        border-radius: .5em;
+        width: 900px;
+        padding: 1em 5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.cta-col-2 button {
+        border-style: solid;
+        border-color: #F9FAF8;
+        padding: .5em 2em;
+}
+
+/*Footer*/
