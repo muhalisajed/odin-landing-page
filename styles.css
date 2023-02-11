@@ -106,8 +106,6 @@ h2 {
         align-self: center;
 }
 
-
-
 .img-container span {
         display: block;
         border-style: solid;
@@ -118,35 +116,50 @@ h2 {
         margin: 1em;
 }
 
+.img-container figure {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 9em;
+}
+
+.img-container figcaption {
+        justify-content: center;
+ }
+
 /*Quote Section*/
+.main-quote, .author {
+         
+}
+
 .quote {
-        background-color: #e5e7eb;
-        padding: 3.5em;
+        padding: 2.5em 4.5em;
         font-size: 2.25rem;
         display: flex;
         flex-direction: column;
+        margin: 0 5em;  
+}
+
+.quote-container {
+        background-color: #e5e7eb;
 }
 
 blockquote {
-        margin: 0;
+        
 }
 
-blockquote p {
+blockquote {
         align-self: center;
         font-weight: lighter;
         font-style: italic;
-        margin: 0 .7em;
-}
-
-figcaption {
-        align-self: flex-end;
+        margin: 0;
 }
 
 .author {
         font-weight: bold;
         font-style: normal;
-        font-size: 1.12rem;
-        margin: 1em;
+        font-size: 1.5rem;
+        align-self: flex-end;
 }
 
 /*CTA Section*/
@@ -180,6 +193,10 @@ figcaption {
         border-style: solid;
         border-color: #F9FAF8;
         padding: .5em 2em;
+}
+
+.quote figcaption {
+        align-self: flex-end;
 }
 
 /*Footer*/
