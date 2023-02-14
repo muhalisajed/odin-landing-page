@@ -3,7 +3,7 @@ body {
        font-family: 'Roboto', sans-serif;
 }
 
-header, h1, .hero {
+header, h1, .hero, .quote {
         margin: 0 auto;
         max-width: 1200px;
 }
@@ -133,7 +133,7 @@ h2 {
         font-size: 2.25em;
         display: flex;
         flex-direction: column;
-        margin: 0 11em;  
+     
 }
 
 .quote-container {
