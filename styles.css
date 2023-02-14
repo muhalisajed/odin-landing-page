@@ -133,7 +133,7 @@ h2 {
         font-size: 2.25em;
         display: flex;
         flex-direction: column;
-     
+        margin: 0 3.3em
 }
 
 .quote-container {
@@ -141,7 +141,6 @@ h2 {
 }
 
 .main-quote {
-        margin: 0;
 }
 
 .main-quote p {
