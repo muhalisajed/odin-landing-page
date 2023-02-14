@@ -46,13 +46,16 @@ nav ul li a {
 .hero {
         display: flex;
         align-items: center;
-        gap: 1em;
+       
 }
 
+
 h1 {
-        font-size: 3rem;
+        font-size: 3em;
         font-weight: bolder;
         color: #F9FAF8;
+        flex-wrap: wrap;
+        margin: 0;
 }
 
 .hero-button {
@@ -67,15 +70,15 @@ h1 {
 }
 
 .main-text {
-        font-size: 1.125rem;
+        font-size: 1.125em;
         color: #e5e7eb;
-        margin-right: 2em;
+        flex-wrap: wrap;
 }
 
 .img-place {
         display: block;
         background: #e5e7eb;
-        padding: 6em 12em;
+        padding: 6em 13em;
         
 }
 
@@ -88,7 +91,8 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 1em 0 6em 0 ;
+        margin: 1em 0 10em 0 ;
+        padding: .em;
 }
 
 h2 {
@@ -97,35 +101,40 @@ h2 {
         color: #1f2937;
 }
 
-.img-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-}
-
 .img-container {
         display: flex;
-        
 }
 
 .img-container span {
-        display: block;
+        font-size: 1em;
+        padding: 5em 5em;
+        border-color: #3882f6;
+        border-style: solid;
+        border-radius: 1em;
+        display: inline-block;
+        border-width: 0.25em;
+        /*display: block;
         border-style: solid;
         border-width: 0.25em;
         border-radius: 1em;
         border-color: #3882f6;
-        padding: 4.688em;
-        margin: .5em;
+        padding: 10em;
+        margin: .5em;*/
 }
 
 .img-container figure {
+        margin: 0;
+        width: 13em;
+}
+/*.img-container figure {
         display: flex;
         flex-direction: column;
         align-content: center;
-        width: 9em;
-}
+}*/
 
 .img-container figcaption {
+        width: 9rem;
+        text-align: center;
         margin-left: .5em;
  }
 
